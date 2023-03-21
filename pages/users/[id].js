@@ -36,8 +36,19 @@ function user({ user }) {
 
   return (
     <>
-      <h3>{user.name}</h3>
-      <p>{user.email}</p>
+      <h3>Name: {user.name}</h3>
+      <p>Email: {user.email}</p>
+      <p>Website: {user.website}</p>
+      <p>Phone: {user.phone}</p>
+      <div>
+        address:
+        <ul>
+          <li> Street: {user.address.street}</li>
+          <li>Suite: {user.address.suite}</li>
+          <li> City: {user.address.city}</li>
+          <li> Zipcode: {user.address.zipcode}</li>
+        </ul>
+      </div>
       <button onClick={onBackHendler} className={styles.button}>
         Go Back
       </button>
