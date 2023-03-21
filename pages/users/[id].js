@@ -28,7 +28,7 @@ export async function getStaticProps(context) {
   };
 }
 
-function user({ user }) {
+function User({ user }) {
   const router = useRouter();
   const onBackHendler = () => {
     router.back(1);
@@ -56,4 +56,4 @@ function user({ user }) {
   );
 }
 
-export default user;
+export default User;
