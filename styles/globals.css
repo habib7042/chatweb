@@ -11,7 +11,7 @@ body {
 }
 nev {
   position: sticky;
-  top:0;
+  top: 0;
   z-index: 1000;
   margin: 10px auto 80px;
   background-color: #fff;
@@ -46,13 +46,17 @@ footer {
 .not_found {
   text-align: center;
 }
-button {
-  color: #f2f2f2;
-  background-color: brown;
-  padding: 10px 15px;
-  border-radius: 5px;
-  border: none;
-  margin-left: 10px;
-  text-align: center;
-  align-items: center;
+.user_name {
+  display: block;
+  margin-top: 10px;
+  font-size: 24px;
+  color: #333;
+  background: #fff;
+  padding: 10px 20px;
+  box-shadow: 4px 4px 4px silver;
+  transition: all 0.5s;
+}
+.user_name:hover {
+  box-shadow: 5px 5px 5px 1px blue;
+  border-left: 4px solid blue;
 }
