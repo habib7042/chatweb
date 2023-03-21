@@ -6,3 +6,23 @@
 .text {
     color:#333;
 }
+.card {
+    background-color: aliceblue;
+    width: 920px;
+    height: auto;
+    margin: 10px auto;
+    padding: 10px 5px;
+    border: 1px solid rgba(0, 0, 0, 0.164);
+    box-shadow: 4px 4px 4px rgba(29, 23, 22, 0.548);
+    transition: all 1s;
+}
+.card:hover {
+    transform: scale(1.1);
+}
+.card_title {
+    color: #333;
+    margin-left: 10px;
+}
+.card_text {
+    color: rgb(24, 19, 13);
+}

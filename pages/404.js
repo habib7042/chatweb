@@ -8,7 +8,7 @@ function Notfound() {
   useEffect(() => {
     setTimeout(() => {
         // router.back(1)
-      router.push(1);
+      router.push('/');
     }, 4000);
   }, []);
 
