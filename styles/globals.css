@@ -10,6 +10,7 @@ body {
   margin: 0 auto;
 }
 nev {
+  position: sticky;
   margin: 10px auto 80px;
   padding: 10px 0;
   display: flex;
